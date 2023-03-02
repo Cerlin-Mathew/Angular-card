@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { district } from 'src/assets/data';
 
 @Component({
   selector: 'app-card',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent {
-
+    data = district
 }
