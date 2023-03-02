@@ -16,6 +16,10 @@
     justify-content: center;
     background-color: brown;
 }
+.card-text{
+    text-align: justify;
+    height: 175px;
+}
 
 .card-img-top{
     height:200px;
